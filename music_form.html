@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Música</h1>
+    </header>
+
+    <main>
+        <section>
+            <h3>Descripción</h3>
+            <p>Este formulario recopila información sobre tus preferencias musicales.</p>
+        </section>
+
+        <section>
+            <h3>Ingresa tus datos</h3>
+        
+            <form>
+                <label for = "fname"> Nombre completo:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for = "email">Correo electrónico:</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for = "age">Edad:</label><br>
+                <input type= ="number" id ="age" name ="age"><br>
+            </form>
+        </section>
+    </main>
+
+    <section>
+        <h3>Géneros preferidos</h3>
+        <form>
+            <input type="checkbox" id ="rock" name="genre" value="rock">
+            <label for="rock">Rock</label><br>
+            <input type="checkbox" id ="pop" name="genre" value = "pop">
+            <label for="pop">Pop</label><br>
+            <input type="checkbox" id ="reggae" name="genre" value = "reggae">
+            <label for="reggae">Reggae</label><br>
+            <input type="checkbox" id = "hiphop" name="genre" value = "hip hop">
+            <label for="hiphop">Hip Hop</label><br>
+            <input type="checkbox" id = "reggaeton" name="genre" value = "reggaeton">
+            <label for="reggaeton">Reggaeton</label><br>
+            <input type="checkbox" id="electronic" name="genre" value = "electrónica">
+            <label for="electronic">Electrónica</label><br>
+            <input type="checkbox" id="rnb" name="genre" value="rnb">
+            <label for="rnb">Rhythm & Blues</label><br>
+            <input type="checkbox" id="salsa" name="genre" value="salsa">
+            <label for="salsa">Salsa</label><br>
+            <input type="checkbox" id="popular" name="genre" value="popular">
+            <label for="popular">Popular</label><br>
+            <input type="checkbox" id="vallenato" name="genre" value="vallenato">
+            <label for="vallenato">Vallenato</label><br>
+            <input type="checkbox" id="bolero" name="genre" value="bolero">
+            <label for="bolero">Boleros</label><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Gracias por completar el formulario.</p>
+    </footer>
+</body>
+</html>
